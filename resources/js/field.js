@@ -1,5 +1,5 @@
 Nova.booting((Vue, router) => {
-    Vue.component('form-nova-stripe-payment-field', require('./components/FormField'));
+    Vue.component('form-nova-stripe-checkout-field', require('./components/FormField'));
 
     const script = document.createElement('script');
     script.src = 'https://checkout.stripe.com/checkout.js';

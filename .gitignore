@@ -1,4 +1,3 @@
-/dist
 /.idea
 /vendor
 /node_modules
@@ -9,3 +8,4 @@ phpunit.xml
 .phpunit.result.cache
 .DS_Store
 Thumbs.db
+yarn-error.log

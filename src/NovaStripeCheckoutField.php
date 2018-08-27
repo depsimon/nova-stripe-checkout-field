@@ -1,17 +1,17 @@
 <?php
 
-namespace Depsimon\NovaStripePaymentField;
+namespace Depsimon\NovaStripeCheckoutField;
 
 use Laravel\Nova\Fields\Field;
 
-class NovaStripePaymentField extends Field
+class NovaStripeCheckoutField extends Field
 {
     /**
      * The field's component.
      *
      * @var string
      */
-    public $component = 'nova-stripe-payment-field';
+    public $component = 'nova-stripe-checkout-field';
 
     /**
      * Create a new field.

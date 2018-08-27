@@ -1,6 +1,6 @@
 <?php
 
-namespace Depsimon\NovaStripePaymentField;
+namespace Depsimon\NovaStripeCheckoutField;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
@@ -16,8 +16,8 @@ class FieldServiceProvider extends ServiceProvider
     public function boot()
     {
         Nova::serving(function (ServingNova $event) {
-            Nova::script('nova-stripe-payment-field', __DIR__.'/../dist/js/field.js');
-            Nova::style('nova-stripe-payment-field', __DIR__.'/../dist/css/field.css');
+            Nova::script('nova-stripe-checkout-field', __DIR__.'/../dist/js/field.js');
+            Nova::style('nova-stripe-checkout-field', __DIR__.'/../dist/css/field.css');
         });
     }
 
