@@ -1,0 +1,29 @@
+{
+    "name": "depsimon/nova-stripe-payment-field",
+    "description": "A Laravel Nova field that shows a Stripe Checkout Button.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Depsimon\\NovaStripePaymentField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Depsimon\\NovaStripePaymentField\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
